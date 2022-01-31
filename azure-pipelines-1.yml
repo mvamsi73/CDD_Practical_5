@@ -10,10 +10,8 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: Maven@3
-- script: |
-    - task: CmdLine@2
-      inputs:
-        script: |
-          javac AddTwoNumbers.java
-          java AddTwoNumbers
+- task: CmdLine@2
+  inputs:
+    script: |
+      javac AddTwoNumbers.java
+      java AddTwoNumbers
