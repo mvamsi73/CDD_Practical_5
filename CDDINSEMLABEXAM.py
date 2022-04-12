@@ -1,1 +1,1 @@
-print("190030286_CDD_INSEM LAB EXAM")
+print("CDD INLAB EXAM")
